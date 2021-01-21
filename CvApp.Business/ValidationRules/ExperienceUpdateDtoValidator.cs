@@ -1,11 +1,11 @@
-﻿using CvApp.DTO.DTOs.AppUserDtos;
+﻿using CvApp.DTO.DTOs.ExperienceDtos;
 using FluentValidation;
 
 namespace CvApp.Business.ValidationRules
 {
-    public class AppUserUpdateDtoValidator : AbstractValidator<AppUserUpdateDto>
+    public class ExperienceUpdateDtoValidator : AbstractValidator<ExperienceUpdateDto>
     {
-        public AppUserUpdateDtoValidator()
+        public ExperienceUpdateDtoValidator()
         {
             RuleFor(x => x.Id).InclusiveBetween(1, int.MaxValue).WithMessage("Id alanı boş geçilemez");
         }

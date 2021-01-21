@@ -7,3 +7,10 @@ C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Business\obj\Debug\netcoreapp3.1\C
 C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Business\obj\Debug\netcoreapp3.1\CvApp.Business.csproj.CoreCompileInputs.cache
 C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Business\obj\Debug\netcoreapp3.1\CvApp.Business.dll
 C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Business\obj\Debug\netcoreapp3.1\CvApp.Business.pdb
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Business\bin\Debug\netcoreapp3.1\CvApp.DataAccess.dll
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Business\bin\Debug\netcoreapp3.1\CvApp.DTO.dll
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Business\bin\Debug\netcoreapp3.1\CvApp.Entities.dll
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Business\bin\Debug\netcoreapp3.1\CvApp.DataAccess.pdb
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Business\bin\Debug\netcoreapp3.1\CvApp.DTO.pdb
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Business\bin\Debug\netcoreapp3.1\CvApp.Entities.pdb
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Business\obj\Debug\netcoreapp3.1\CvApp.Business.csproj.CopyComplete
