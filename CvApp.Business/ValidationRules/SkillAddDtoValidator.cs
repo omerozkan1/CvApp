@@ -1,4 +1,4 @@
-﻿using CvApp.DTO.DTOs.InterestDtos;
+﻿using CvApp.DTO.DTOs.SkillDtos;
 using FluentValidation;
 
 namespace CvApp.Business.ValidationRules
