@@ -1,0 +1,9 @@
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Business\bin\Debug\netcoreapp3.1\CvApp.Business.deps.json
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Business\bin\Debug\netcoreapp3.1\CvApp.Business.dll
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Business\bin\Debug\netcoreapp3.1\CvApp.Business.pdb
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Business\obj\Debug\netcoreapp3.1\CvApp.Business.csprojAssemblyReference.cache
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Business\obj\Debug\netcoreapp3.1\CvApp.Business.AssemblyInfoInputs.cache
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Business\obj\Debug\netcoreapp3.1\CvApp.Business.AssemblyInfo.cs
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Business\obj\Debug\netcoreapp3.1\CvApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Business\obj\Debug\netcoreapp3.1\CvApp.Business.dll
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Business\obj\Debug\netcoreapp3.1\CvApp.Business.pdb
