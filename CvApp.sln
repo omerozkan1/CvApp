@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CvApp.DTO", "CvApp.DTO\CvAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CvApp.Business", "CvApp.Business\CvApp.Business.csproj", "{85C58DCD-DAFD-44A1-9910-F3953EE5D00E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CvApp.Web", "CvApp.Web\CvApp.Web.csproj", "{832AE43D-08A5-4536-A5D8-3018B15BFCD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{85C58DCD-DAFD-44A1-9910-F3953EE5D00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85C58DCD-DAFD-44A1-9910-F3953EE5D00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85C58DCD-DAFD-44A1-9910-F3953EE5D00E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832AE43D-08A5-4536-A5D8-3018B15BFCD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832AE43D-08A5-4536-A5D8-3018B15BFCD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832AE43D-08A5-4536-A5D8-3018B15BFCD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832AE43D-08A5-4536-A5D8-3018B15BFCD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
