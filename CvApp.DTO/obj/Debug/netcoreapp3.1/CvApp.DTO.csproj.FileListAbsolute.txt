@@ -1,0 +1,8 @@
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.DTO\bin\Debug\netcoreapp3.1\CvApp.DTO.deps.json
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.DTO\bin\Debug\netcoreapp3.1\CvApp.DTO.dll
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.DTO\bin\Debug\netcoreapp3.1\CvApp.DTO.pdb
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.DTO\obj\Debug\netcoreapp3.1\CvApp.DTO.AssemblyInfoInputs.cache
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.DTO\obj\Debug\netcoreapp3.1\CvApp.DTO.AssemblyInfo.cs
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.DTO\obj\Debug\netcoreapp3.1\CvApp.DTO.csproj.CoreCompileInputs.cache
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.DTO\obj\Debug\netcoreapp3.1\CvApp.DTO.dll
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.DTO\obj\Debug\netcoreapp3.1\CvApp.DTO.pdb

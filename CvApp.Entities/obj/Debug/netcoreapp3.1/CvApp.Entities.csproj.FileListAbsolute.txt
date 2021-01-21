@@ -1,0 +1,8 @@
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Entities\bin\Debug\netcoreapp3.1\CvApp.Entities.deps.json
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Entities\bin\Debug\netcoreapp3.1\CvApp.Entities.dll
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Entities\bin\Debug\netcoreapp3.1\CvApp.Entities.pdb
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Entities\obj\Debug\netcoreapp3.1\CvApp.Entities.AssemblyInfoInputs.cache
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Entities\obj\Debug\netcoreapp3.1\CvApp.Entities.AssemblyInfo.cs
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Entities\obj\Debug\netcoreapp3.1\CvApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Entities\obj\Debug\netcoreapp3.1\CvApp.Entities.dll
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Entities\obj\Debug\netcoreapp3.1\CvApp.Entities.pdb
