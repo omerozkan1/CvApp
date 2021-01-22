@@ -2,6 +2,8 @@
 using CvApp.Business.Interfaces;
 using CvApp.DTO.DTOs.AppUserDtos;
 using CvApp.Web.Models;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -72,7 +74,23 @@ namespace CvApp.Web.Areas.Admin.Controllers
         public IActionResult ChangePassword()
         {
             TempData["active"] = "sifre";
-            return View();
+
+            var user = appUserService.FindByName(User.Identity.Name);
+            return View(new AppUserPasswordDto { Id = user.Id });
+        }
+
+        [HttpPost]
+        public IActionResult ChangePassword(AppUserPasswordDto model)
+        {
+            TempData["active"] = "sifre";
+            if (ModelState.IsValid)
+            {
+                var updatedUser = appUserService.FindByName(User.Identity.Name);
+                updatedUser.Password = model.Password;
+                appUserService.Update(updatedUser);
+                HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            }
+            return View(model);
         }
     }
 }
