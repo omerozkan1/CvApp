@@ -81,3 +81,7 @@ C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\obj\Debug\netcoreapp3.1\Razor\
 C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\NavbarComponent\Default.cshtml.g.cs
 C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\AboutComponent\Default.cshtml.g.cs
 C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ExperienceComponent\Default.cshtml.g.cs
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\EducationComponent\Default.cshtml.g.cs
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\SkillComponent\Default.cshtml.g.cs
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\InterestComponent\Default.cshtml.g.cs
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CertificationComponent\Default.cshtml.g.cs
