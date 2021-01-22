@@ -6,6 +6,7 @@ namespace CvApp.Entities.Concrete
     [Table("SocialMediaIcons")]
     public class SocialMediaIcon : ITable
     {
+        [Key]
         public int Id { get; set; }
         public string Link { get; set; }
         public string Icon { get; set; }

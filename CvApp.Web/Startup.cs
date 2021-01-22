@@ -1,3 +1,4 @@
+using AutoMapper;
 using CvApp.Business.IOC.Microsoft;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -34,6 +35,7 @@ namespace CvApp.Web
                 opt.LoginPath = new PathString("/Auth/Login");
             });
             services.AddCustomDependencies(Configuration);
+            services.AddAutoMapper(typeof(Startup));
             services.AddControllersWithViews().AddFluentValidation();
         }
 

@@ -20,6 +20,12 @@ namespace CvApp.Web.Controllers
         {
             return View(new AppUserLoginModel());
         }
+        public IActionResult LogOut()
+        {
+            HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme).Wait();
+            return RedirectToAction("Index", "Home", new { @area = "" });
+        }
+
 
         [HttpPost]
         public async Task<IActionResult> Login(AppUserLoginModel model)
