@@ -24,8 +24,11 @@ namespace CvApp.Business.IOC.Microsoft
         {
             services.AddTransient<IDbConnection>(con => new SqlConnection(configuration.GetConnectionString("DbConnection")));
 
-            services.AddScoped(typeof(IGenericRepository<>), typeof(DpGenericRepository<>));
+            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped(typeof(IGenericService<>), typeof(GenericManager<>));
+
+            services.AddScoped<IAppUserRepository, AppUserRepository>();
+            services.AddScoped<IAppUserService, AppUserManager>();
 
             services.AddTransient<IValidator<AppUserUpdateDto>, AppUserUpdateDtoValidator>();
             services.AddTransient<IValidator<CertificationAddDto>, CertificationAddDtoValidator>();

@@ -7,11 +7,11 @@ using System.Linq;
 
 namespace CvApp.DataAccess.Concrete.Dapper
 {
-    public class DpGenericRepository<T> : IGenericRepository<T> where T : class, ITable, new()
+    public class GenericRepository<T> : IGenericRepository<T> where T : class, ITable, new()
     {
         private readonly IDbConnection dbConnection;
 
-        public DpGenericRepository(IDbConnection dbConnection)
+        public GenericRepository(IDbConnection dbConnection)
         {
             this.dbConnection = dbConnection;
         }

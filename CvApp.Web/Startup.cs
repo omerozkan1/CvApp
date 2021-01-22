@@ -1,11 +1,13 @@
 using CvApp.Business.IOC.Microsoft;
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using System;
 
 namespace CvApp.Web
 {
@@ -22,6 +24,15 @@ namespace CvApp.Web
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(opt=> 
+            {
+                opt.Cookie.HttpOnly = true;
+                opt.Cookie.Name = "CvAppCookie";
+                opt.Cookie.SameSite = SameSiteMode.Strict;
+                opt.Cookie.SecurePolicy = CookieSecurePolicy.SameAsRequest;
+                opt.ExpireTimeSpan = TimeSpan.FromDays(20);
+                opt.LoginPath = new PathString("/Auth/Login");
+            });
             services.AddCustomDependencies(Configuration);
             services.AddControllersWithViews().AddFluentValidation();
         }
@@ -35,12 +46,20 @@ namespace CvApp.Web
             }
 
             app.UseRouting();
+            app.UseStaticFiles();
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
+                    name:"areas",
+                    pattern:"{area}/{controller=Home}/{action=Index}/{id?}");
+
+                endpoints.MapControllerRoute(
                     name: "default", 
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+
             });
         }
     }
