@@ -78,3 +78,6 @@ C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\obj\Debug\netcoreapp3.1\Razor\
 C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SocialMediaIcon\Index.cshtml.g.cs
 C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\SocialMediaIcon\Update.cshtml.g.cs
 C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Certification\Update.cshtml.g.cs
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\NavbarComponent\Default.cshtml.g.cs
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\AboutComponent\Default.cshtml.g.cs
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ExperienceComponent\Default.cshtml.g.cs
