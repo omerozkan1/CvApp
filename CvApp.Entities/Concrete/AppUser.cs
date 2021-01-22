@@ -6,6 +6,7 @@ namespace CvApp.Entities.Concrete
     [Table("AppUsers")]
     public class AppUser : ITable
     {
+        [Key]
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }

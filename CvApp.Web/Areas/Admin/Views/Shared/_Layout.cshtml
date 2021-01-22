@@ -24,14 +24,10 @@
 
         <!-- Sidebar -->
         <div class="bg-light border-right" id="sidebar-wrapper">
-            <div class="sidebar-heading">Start Bootstrap </div>
+            <div class="sidebar-heading">CvApp Admin Panel </div>
             <div class="list-group list-group-flush">
-                <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
+                <a asp-action="Index" asp-controller="Home" class="list-group-item list-group-item-action @(TempData["active"]?.ToString()=="bilgilerim"?"active":"")">Bilgilerim</a>
+                <a asp-action="ChangePassword" asp-controller="Home" class="list-group-item list-group-item-action @(TempData["active"]?.ToString()=="sifre"?"active":"")">Şifre Değişikliği</a>          
             </div>
         </div>
         <!-- /#sidebar-wrapper -->
@@ -69,8 +65,20 @@
             </nav>
 
             <div class="container-fluid">
-                <h1 class="mt-4">Simple Sidebar</h1>
-                @RenderBody();
+
+                @{ if (!string.IsNullOrWhiteSpace(TempData["message"]?.ToString()))
+                    {
+                        <div class="alert alert-info alert-dismissible fade show my-2" role="alert">
+                            @TempData["message"].ToString()
+                            <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div> 
+                    }
+                 }
+
+
+                @RenderBody()
             </div>
         </div>
 

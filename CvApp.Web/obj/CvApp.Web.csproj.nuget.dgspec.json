@@ -110,6 +110,9 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "C:\\Users\\ÖmerÖzkan\\source\\repos\\CvApp\\CvApp.DTO\\CvApp.DTO.csproj": {
+                "projectPath": "C:\\Users\\ÖmerÖzkan\\source\\repos\\CvApp\\CvApp.DTO\\CvApp.DTO.csproj"
+              },
               "C:\\Users\\ÖmerÖzkan\\source\\repos\\CvApp\\CvApp.Entities\\CvApp.Entities.csproj": {
                 "projectPath": "C:\\Users\\ÖmerÖzkan\\source\\repos\\CvApp\\CvApp.Entities\\CvApp.Entities.csproj"
               }
@@ -125,6 +128,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

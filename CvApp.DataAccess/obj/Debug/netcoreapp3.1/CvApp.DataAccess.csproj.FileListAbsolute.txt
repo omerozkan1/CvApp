@@ -10,3 +10,5 @@ C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.DataAccess\obj\Debug\netcoreapp3.1
 C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.DataAccess\obj\Debug\netcoreapp3.1\CvApp.DataAccess.csproj.CopyComplete
 C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.DataAccess\obj\Debug\netcoreapp3.1\CvApp.DataAccess.dll
 C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.DataAccess\obj\Debug\netcoreapp3.1\CvApp.DataAccess.pdb
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.DataAccess\bin\Debug\netcoreapp3.1\CvApp.DTO.dll
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.DataAccess\bin\Debug\netcoreapp3.1\CvApp.DTO.pdb

@@ -56,3 +56,6 @@ C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\obj\Debug\netcoreapp3.1\Razor\
 C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\bin\Debug\netcoreapp3.1\libman.json
 C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\obj\Debug\netcoreapp3.1\Razor\Views\Auth\Login.cshtml.g.cs
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\ChangePassword.cshtml.g.cs

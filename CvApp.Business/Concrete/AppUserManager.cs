@@ -17,5 +17,10 @@ namespace CvApp.Business.Concrete
         {
             return appUserRepository.CheckUser(userName, password);
         }
+
+        public AppUser FindByName(string userName)
+        {
+            return appUserRepository.FindByName(userName);
+        }
     }
 }

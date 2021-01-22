@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FxPSIhdfpRBRt4vLJsObS7o/JyRtWyMkSIbK6/QfNvGZCk8M/X9j9YICZSmmDRcyepWVUWYUNmIXqLs7dHArHg==",
+  "dgSpecHash": "gmBzBwul/TTgpgWW/FJXg6tOmZ+lJj1ukl0CozfQZRss5Yg8cSoUM2+TYFdR7aLCFCMocWk5ddOwfSr1UjXYDg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ÖmerÖzkan\\source\\repos\\CvApp\\CvApp.Web\\CvApp.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",
     "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\fluentvalidation\\9.4.0\\fluentvalidation.9.4.0.nupkg.sha512",

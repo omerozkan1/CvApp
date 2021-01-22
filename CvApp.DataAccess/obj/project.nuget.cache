@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ySrBBDCbwreMsPbNHmYzO/2KtfZrU1DB8r7Vh2GRivdyYpbBcuwGIXPuV5jPjphzcv4CdsMHTZS062a6uq9scg==",
+  "dgSpecHash": "/e/b041TzBw9ODCpipzLpsWlfDjUjqvd8J6w8lrwC03uS0OJh3oGNphTJTl/9avcUeiCyoum8xJc1totya/6ww==",
   "success": true,
   "projectFilePath": "C:\\Users\\ÖmerÖzkan\\source\\repos\\CvApp\\CvApp.DataAccess\\CvApp.DataAccess.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",
     "C:\\Users\\ÖmerÖzkan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

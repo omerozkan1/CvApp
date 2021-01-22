@@ -19,8 +19,15 @@ using CvApp.Entities.Concrete;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\Views\_ViewImports.cshtml"
+using CvApp.Web.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6c216d4e4a28751ac034fee065ef42b552b3f1eb", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"aeb47c2a06713d8333a92e09d318a17b47f183f7", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5b491793225b4e16097346afe55434f509c3336b", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Skill>>
     {
         #line hidden
@@ -57,7 +64,7 @@ using CvApp.Entities.Concrete;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c216d4e4a28751ac034fee065ef42b552b3f1eb3254", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c216d4e4a28751ac034fee065ef42b552b3f1eb3433", async() => {
                 WriteLiteral("\r\n    <title>Test</title>\r\n");
             }
             );
@@ -71,7 +78,7 @@ using CvApp.Entities.Concrete;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c216d4e4a28751ac034fee065ef42b552b3f1eb4247", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c216d4e4a28751ac034fee065ef42b552b3f1eb4426", async() => {
                 WriteLiteral("\r\n");
 #nullable restore
 #line 11 "C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\Views\Home\Index.cshtml"

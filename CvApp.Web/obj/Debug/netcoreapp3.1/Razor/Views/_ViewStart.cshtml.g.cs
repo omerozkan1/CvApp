@@ -19,8 +19,15 @@ using CvApp.Entities.Concrete;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\ÖmerÖzkan\source\repos\CvApp\CvApp.Web\Views\_ViewImports.cshtml"
+using CvApp.Web.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"aeb47c2a06713d8333a92e09d318a17b47f183f7", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5b491793225b4e16097346afe55434f509c3336b", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
